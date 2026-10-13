@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-BR"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Edital Verticalizado – CGU AFFC Cargo 3 (Infraestrutura de TI)</title>
+<style>
+:root{--bg:#f6f7f9;--card:#fff;--tx:#1b1f27;--mu:#5d6676;--bd:#e1e4ea;--ac:#2563eb;--ok:#16a34a;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#12151b;--card:#1b2029;--tx:#e8ebf0;--mu:#9aa4b5;--bd:#2c3340;--ac:#60a5fa;--ok:#4ade80;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#12151b;--card:#1b2029;--tx:#e8ebf0;--mu:#9aa4b5;--bd:#2c3340;--ac:#60a5fa;--ok:#4ade80;color-scheme:dark}
+*{box-sizing:border-box}html{scroll-padding-top:70px}
+body{margin:0;background:var(--bg);color:var(--tx);font:15px/1.5 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+.w{max-width:960px;margin:0 auto;padding:16px}
+h1{font-size:1.4rem;margin:.2em 0}h2{font-size:1.1rem;margin:1.4em 0 .5em}
+.mu{color:var(--mu);font-size:.85rem}
+.card{background:var(--card);border:1px solid var(--bd);border-radius:12px;padding:14px;margin-bottom:10px}
+.bar{height:8px;background:var(--bd);border-radius:6px;overflow:hidden}.bar i{display:block;height:100%;background:var(--ok);width:0;transition:width .3s}
+.g{display:grid;gap:10px;grid-template-columns:repeat(auto-fit,minmax(210px,1fr))}
+.big{font-size:1.6rem;font-weight:700}
+.tbl{overflow-x:auto}table{border-collapse:collapse;width:100%;font-size:.88rem}th,td{padding:6px 8px;border-bottom:1px solid var(--bd);text-align:left;white-space:nowrap}
+.bar2{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);padding:8px 0;display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+select,button{font:inherit;padding:6px 10px;border-radius:8px;border:1px solid var(--bd);background:var(--card);color:var(--tx);cursor:pointer}
+button.p{background:var(--ac);color:#fff;border-color:var(--ac)}
+.ph{margin:18px 0 6px;padding-left:10px;border-left:5px solid;font-weight:700}
+.day{border-left:5px solid}.day.done{opacity:.6}.day.nx{outline:2px solid var(--ac)}
+.dh{display:flex;justify-content:space-between;gap:8px;align-items:center;margin-bottom:6px}
+.tag{font-size:.72rem;padding:2px 8px;border-radius:99px;color:#fff;white-space:nowrap}
+label{display:flex;gap:9px;align-items:flex-start;padding:5px 0;cursor:pointer}
+label input{margin-top:4px;width:17px;height:17px;flex:none}
+label.c span{text-decoration:line-through;color:var(--mu)}
+.ft{font-size:.8rem;color:var(--mu);margin:24px 0}
+#L{display:grid;gap:10px;grid-template-columns:1fr}
+#L .ph,#L>.card.mu{grid-column:1/-1}
+#L .day{margin:0}.dh{flex-wrap:wrap}
+@media (min-width:700px){.w{max-width:1100px;padding:20px}h1{font-size:1.65rem}#L{grid-template-columns:repeat(2,1fr)}}
+@media (min-width:1100px){.w{max-width:1280px;padding:24px}#L{grid-template-columns:repeat(3,1fr)}}
+@media (max-width:699px){body{font-size:16px}.w{padding:12px}.bar2{position:static}.bar2 select,.bar2 button{flex:1 1 44%;min-height:44px}#nx{flex-basis:100%}label{padding:9px 0}label input{width:22px;height:22px}th,td{padding:6px}.big{font-size:1.4rem}}
+</style></head><body><div class="w">
+<h1>Edital Verticalizado · CGU/AFFC – Cargo 3</h1>
+<div class="mu">Auditor Federal de Finanças e Controle · Tecnologia da Informação – Infraestrutura de TI · Banca Cebraspe · Edital nº 1/2026</div>
+
+<div class="card" style="margin-top:12px"><div style="display:flex;justify-content:space-between"><b>Progresso geral</b><b id="pt">0%</b></div><div class="bar" style="margin:6px 0"><i id="pb"></i></div><div class="mu" id="ps"></div></div>
+
+<h2>Peso das disciplinas (priorize de cima para baixo)</h2>
+<div class="g" id="wg"></div>
+<div class="card tbl" style="margin-top:10px"><table>
+<tr><th>Prova</th><th>Itens</th><th>Pontos/item</th><th>Total</th><th>% das objetivas</th><th>Mínimo p/ não ser eliminado</th></tr>
+<tr><td>P3 – Específicos</td><td>90</td><td>±2,00</td><td>180</td><td>69,2%</td><td>NP3 ≥ 54</td></tr>
+<tr><td>P1 – Básicos</td><td>40</td><td>±1,00</td><td>40</td><td>15,4%</td><td>NP1 ≥ 8</td></tr>
+<tr><td>P2 – Complementares</td><td>40</td><td>±1,00</td><td>40</td><td>15,4%</td><td>NP2 ≥ 12</td></tr>
+<tr><td>P4 – Discursiva</td><td>2 questões</td><td>30 + 70</td><td>100</td><td>—</td><td>30 linhas (compl.) + 60 linhas (específ.)</td></tr></table>
+<p class="mu" style="margin:8px 0 0">Itens Certo/Errado: erro anula um acerto (resposta errada desconta o mesmo valor). Em dúvida real, deixar em branco vale 0. Soma NP1+NP2+NP3 ≥ 78. O edital não divide os 90 itens de P3 por bloco; os "~45 pts" por bloco são uma estimativa igualitária.</p></div>
+
+<div class="bar2">
+<select id="f"><option value="all">Todas as disciplinas</option></select>
+<select id="s"><option value="all">Todos os dias</option><option value="pend">Só pendentes</option><option value="done">Só concluídos</option></select>
+<button class="p" id="nx">Ir para o próximo dia</button>
+<button id="rs">Zerar</button><button id="th">Tema</button>
+</div>
+<div id="L"></div>
+<div class="ft">Progresso salvo neste navegador (localStorage). Conteúdo organizado a partir do item 15.2 do edital (Cargo 3). Confira sempre o edital oficial e eventuais retificações.</div>
+</div>
+<script>
+var M={R:['Redes, Sistemas, Armazenamento e Dados (P3)','#2563eb','~45 pts de 180'],N:['Nuvem, Virtualização e Automação (P3)','#7c3aed','~45 pts de 180'],S:['Cibersegurança, Privacidade e Continuidade (P3)','#dc2626','~45 pts de 180'],O:['Operação, Governança e Gestão de Serviços (P3)','#ea580c','~45 pts de 180'],C:['Conhecimentos Complementares (P2)','#059669','40 pts'],B:['Conhecimentos Básicos (P1)','#0891b2','40 pts'],X:['Questões, Discursiva e Simulado','#64748b','P4: 100 pts']};
+var D=[
+['R','Modelos TCP/IP e OSI;IPv4 e IPv6 (endereçamento e sub-redes);DNS e DHCP'],
+['R','Roteamento (estático e dinâmico);Segmentação (VLAN) e balanceamento de carga;Qualidade de serviço (QoS)'],
+['R','Redes locais, sem fio e de longa distância (WAN);Comunicação nuvem x ambiente local (VPN, link dedicado);Diagnóstico de falhas, latência e gargalos'],
+['R','Administração de Windows e Linux;Processos, serviços e permissões;Usuários, grupos e diretórios (AD/LDAP)'],
+['R','Gestão de configuração, atualizações e correções;Servidores de aplicação e serviços web;Diagnóstico e conformidade de ambientes'],
+['R','Armazenamento em bloco, arquivo e objeto (local e nuvem);Capacidade, desempenho, disponibilidade e proteção (RAID);Segregação de acesso, retenção, descarte e escolha de arquitetura'],
+['R','Bancos relacionais, documentais, chave-valor, cache e busca textual;Transações, concorrência (ACID) e logs;Replicação e disponibilidade'],
+['R','Índices e planos de execução;Diagnóstico de desempenho e segurança em BD;Recuperação de dados (backup/restore, PITR)'],
+['R','SQL: DDL e DML;SQL: controle de acesso (GRANT/REVOKE) e transações;Consultas com filtros, junções e agregações'],
+['R','Privilégios, bloqueios, consistência e efeitos operacionais;Integrações e dependências de serviços de dados;Prática: lista de exercícios de SQL'],
+['R','Resolução de questões C/E: Redes (TCP/IP, DNS, DHCP, roteamento);Resolução de questões C/E: Sistemas e diretórios;Anotar erros no caderno de erros'],
+['R','Resolução de questões C/E: Armazenamento;Resolução de questões C/E: Bancos de dados;Resolução de questões C/E: SQL'],
+['N','IaaS, PaaS e SaaS;Modelos de implantação e responsabilidade compartilhada;Redes virtuais e integração com ambiente local'],
+['N','Elasticidade, escalabilidade e portabilidade;Dependência entre serviços e requisitos de segurança;Questões C/E de modelos e arquitetura de nuvem'],
+['N','Máquinas virtuais, contêineres e orquestração (Docker, Kubernetes);Isolamento, persistência, redes e recursos;Hypervisors e tipos de virtualização'],
+['N','Escalonamento, atualização e recuperação;Segurança e disponibilidade de ambientes virtualizados e conteinerizados;Questões C/E de virtualização e contêineres'],
+['N','Balanceamento e serviços gerenciados;Processamento orientado a eventos e serverless;Filas e comunicação entre serviços'],
+['N','Tolerância a falhas e continuidade;Operação própria x serviços contratados;Questões C/E de arquiteturas de serviços'],
+['N','Versionamento, gestão de configuração e automação;Estados desejados, repetibilidade e idempotência;Segregação de ambientes e proteção de credenciais'],
+['N','Integração e entrega contínuas (CI/CD);Validação de mudanças e reversão (rollback);Questões C/E de IaC'],
+['N','Dependências, compatibilidade e portabilidade;Transição entre ambientes locais e de nuvem;Transferência e sincronização de dados'],
+['N','Testes, continuidade e reversibilidade da migração;Dimensionamento e custos da migração e operação;Resolução de questões C/E do Bloco 2 (nuvem, contêineres, IaC e migração)'],
+['S','Ameaças, vulnerabilidades e superfícies de ataque;Defesa em profundidade;Zero trust e segmentação'],
+['S','Firewall, IPS, WAF e proteção contra DDoS;Acesso remoto seguro (VPN/ZTNA);Controles em ambientes locais e de nuvem'],
+['S','Autenticação, autorização e identidades;Acessos privilegiados (PAM), MFA e SSO;Menor privilégio e segregação de funções'],
+['S','Federação de identidades (SAML, OAuth 2.0, OIDC);Proteção de segredos, chaves e certificados (PKI);Assinatura digital e criptografia em trânsito e repouso'],
+['S','Inventário e exposição de ativos;Gestão de vulnerabilidades, correções e testes autorizados;Proteção de endpoints (EDR/antimalware)'],
+['S','Correlação de eventos, SIEM, SOC e inteligência de ameaças;Prevenção de vazamento de dados (DLP);Questões C/E de operação de segurança'],
+['S','Resposta a incidentes: detecção, análise, contenção, recuperação e comunicação;Responsabilidades e coordenação (ETIR);Preservação de evidências, registros e trilhas'],
+['S','Análise de causas e melhoria dos controles;Incidentes envolvendo serviços de dados e IA;Questões C/E de resposta a incidentes'],
+['S','Privacidade: minimização, segregação e controle de acesso;Proteção de dados pessoais em armazenamento, cópias, registros e integrações (LGPD);Retenção e descarte'],
+['S','Pseudonimização e riscos de reidentificação;Proteção de contêineres e interfaces com serviços de IA;Questões C/E de privacidade'],
+['S','Análise de impacto (BIA), redundância e recuperação de desastres;Backups locais, em nuvem e de serviços contratados;Retenção, isolamento, imutabilidade e testes de restauração'],
+['S','RTO e RPO;Dependência de serviços e fornecedores críticos;Resolução de questões C/E do Bloco 3 (segurança, privacidade e continuidade)'],
+['O','Logs, métricas e rastreamento distribuído;Indicadores e objetivos de serviço (SLI, SLO, SLA);Capacidade, latência, disponibilidade e tolerância a falhas'],
+['O','Monitoramento de aplicações, infraestrutura, pipelines e inferência;Correlação de eventos e diagnóstico;Questões C/E de observabilidade'],
+['O','Dimensionamento de processamento, memória, armazenamento e aceleradores (GPU);Disponibilidade e segurança de serviços de modelos e agentes;Limites de consumo, latência e isolamento de cargas'],
+['O','Custos de nuvem, cotas, alocação e gestão financeira (FinOps);Efeitos da degradação sobre os usuários;Questões C/E de capacidade e custos'],
+['O','Demandas, capacidade e níveis de serviço;Incidentes, problemas, configuração, mudanças e reversão (ITIL);DevSecOps, Scrum, Kanban e melhoria contínua'],
+['O','Alinhamento institucional, responsabilidades, portfólio e indicadores;PDTIC, plano de transformação digital e plano de dados abertos;Gestão de riscos'],
+['O','Evidências de desempenho e efetividade de controles;Articulação entre gestão, fiscalização, segurança e auditoria;Questões C/E de governança'],
+['O','Necessidade, ETP e termo de referência;Viabilidade, capacidade, TCO, pesquisa de preços e alternativas;Níveis de serviço, fiscalização, pagamento, portabilidade e plano de saída'],
+['C','Governança e responsabilidades (direção, gestão, controle);Riscos e controles essenciais;Integridade pública'],
+['C','Integridade privada;Prevenção e melhoria institucional;Questões C/E de governança, riscos e integridade'],
+['C','Acesso à informação (LAI): transparência ativa e passiva;Transparência x proteção de dados pessoais;Ouvidoria e proteção das pessoas'],
+['C','Participação, controle social e Portal da Transparência;Integridade da informação e desinformação;Decisão administrativa: competência, motivação e proporcionalidade'],
+['C','Processo, devido processo legal e garantias;Funções de controle (CGU, TCU, controle externo);Responsabilização (PAD, PAR, acordo de leniência) e proteção'],
+['C','Perguntas, fontes e leitura de dados e indicadores;Inferências e erros de raciocínio (causalidade, vieses);Integridade da evidência e uso responsável de IA'],
+['C','Auditoria governamental: propósito, serviços e três linhas;Ciclo do trabalho, evidência e conclusão;Comunicação, acompanhamento e integração das funções da CGU'],
+['B','Estado e legitimidade;Democracia e representação;Federalismo e capacidades estatais'],
+['B','Ordem constitucional e direitos;Valor público e controle;Corrupção, captura e respostas à corrupção'],
+['B','Estado e modelos de desenvolvimento econômico;Sociedade: fundamentos sociológicos, formação social e cidadania;População, território e trabalho'],
+['B','Diversidade e acesso a direitos;Desenvolvimento e realidade brasileira;Ética pública: fundamentos e deveres profissionais'],
+['B','Conflitos de interesses (Lei 12.813) e impedimento/suspeição (Lei 9.784);Relações de trabalho, assédio e integridade institucional;Administração pública, políticas públicas, PPA/LDO/LOA e transformação digital'],
+['X','Resolução de questões P3: Redes, Sistemas, Armazenamento, BD e SQL;Resolução de questões P3: Nuvem, Virtualização e IaC;Refazer questões erradas do caderno de erros'],
+['X','Resolução de questões P3: Cibersegurança, Privacidade e Continuidade;Resolução de questões P3: Operação, Governança e Contratações;Refazer questões erradas do caderno de erros'],
+['X','Resolução de questões P2 (Complementares);Resolução de questões P1 (Básicos);Resolução de questões C/E mistas de P1 e P2'],
+['X','Discursiva P4: situação-problema de Infra de TI (60 linhas);Discursiva complementar (30 linhas);Autocorreção com critérios de conteúdo, estrutura e escrita'],
+['X','Simulado completo: 40 + 40 + 90 itens C/E em até 5 horas;Meta: NP1 ≥ 8, NP2 ≥ 12, NP3 ≥ 54, soma ≥ 78;Registrar acertos, erros e brancos por disciplina'],
+['X','Correção do simulado e análise de erros;Resolução de questões dos pontos fracos;Logística da prova e descanso']
+];
+var K='cgu3-v1',st={};
+try{st=JSON.parse(localStorage.getItem(K)||'{}')}catch(e){}
+function sv(){try{localStorage.setItem(K,JSON.stringify(st))}catch(e){}}
+var T=D.map(function(d){return d[1].split(';')});
+function pad(n){return n<10?'0'+n:''+n}
+function stat(code){var t=0,c=0;D.forEach(function(d,i){if(!code||d[0]==code)T[i].forEach(function(_,j){t++;if(st[i+'-'+j])c++})});return[c,t]}
+function dayDone(i){return T[i].every(function(_,j){return st[i+'-'+j]})}
+function pct(a){return a[1]?Math.round(a[0]/a[1]*100):0}
+function wg(){var h='';['R','N','S','O','B','C','X'].sort(function(a,b){var w={R:5,N:5,S:5,O:5,B:2,C:2,X:1};return w[b]-w[a]}).forEach(function(k){var a=stat(k),nd=D.filter(function(d){return d[0]==k}).length;h+='<div class="card" style="border-top:4px solid '+M[k][1]+'"><div class="mu">'+M[k][2]+' · '+nd+' dias</div><b>'+M[k][0]+'</b><div class="bar" style="margin:8px 0 4px"><i style="width:'+pct(a)+'%"></i></div><div class="mu">'+a[0]+'/'+a[1]+' tópicos · '+pct(a)+'%</div></div>'});document.getElementById('wg').innerHTML=h}
+function nextDay(){for(var i=0;i<D.length;i++)if(!dayDone(i))return i;return -1}
+function render(){
+ var f=document.getElementById('f').value,s=document.getElementById('s').value,nx=nextDay(),h='',last='';
+ D.forEach(function(d,i){var dn=dayDone(i);
+  if(f!='all'&&d[0]!=f)return;if(s=='pend'&&dn)return;if(s=='done'&&!dn)return;
+  if(d[0]!=last){last=d[0];var r=[],a=D.length;D.forEach(function(x,j){if(x[0]==d[0])r.push(j+1)});h+='<div class="ph" style="border-color:'+M[d[0]][1]+'">'+M[d[0]][0]+' <span class="mu">· Dias '+r[0]+'–'+r[r.length-1]+'</span></div>'}
+  h+='<div class="card day'+(dn?' done':'')+(i==nx?' nx':'')+'" id="d'+i+'" style="border-left-color:'+M[d[0]][1]+'"><div class="dh"><b>Dia '+pad(i+1)+(i==nx?' · próximo':'')+'</b><span class="tag" style="background:'+M[d[0]][1]+'">'+M[d[0]][0].split(' (')[0].split(',')[0]+'</span></div>';
+  T[i].forEach(function(t,j){var c=st[i+'-'+j];h+='<label class="'+(c?'c':'')+'"><input type="checkbox" data-k="'+i+'-'+j+'"'+(c?' checked':'')+'><span>'+t+'</span></label>'});
+  h+='</div>'});
+ document.getElementById('L').innerHTML=h||'<div class="card mu">Nada para mostrar com este filtro.</div>';
+ var a=stat(),dd=D.filter(function(_,i){return dayDone(i)}).length;
+ document.getElementById('pt').textContent=pct(a)+'%';document.getElementById('pb').style.width=pct(a)+'%';
+ document.getElementById('ps').textContent=a[0]+' de '+a[1]+' tópicos · '+dd+' de 60 dias concluídos';
+ wg()}
+var fs=document.getElementById('f');Object.keys(M).forEach(function(k){var o=document.createElement('option');o.value=k;o.textContent=M[k][0];fs.appendChild(o)});
+document.getElementById('L').addEventListener('change',function(e){var k=e.target.getAttribute('data-k');if(!k)return;if(e.target.checked)st[k]=1;else delete st[k];sv();var y=window.scrollY;render();window.scrollTo(0,y)});
+fs.onchange=document.getElementById('s').onchange=render;
+document.getElementById('nx').onclick=function(){document.getElementById('f').value='all';document.getElementById('s').value='all';render();var n=nextDay(),e=document.getElementById('d'+(n<0?59:n));if(e)e.scrollIntoView({behavior:'smooth',block:'center'})};
+document.getElementById('rs').onclick=function(){if(confirm('Apagar todo o progresso salvo?')){st={};sv();render()}};
+document.getElementById('th').onclick=function(){var r=document.documentElement,d=r.getAttribute('data-theme');r.setAttribute('data-theme',d=='dark'||(!d&&matchMedia('(prefers-color-scheme:dark)').matches)?'light':'dark')};
+render();
+</script></body></html>
